@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #000;
+}
+
+/* Header */
+header.masthead{
+	background: linear-gradient(rgba(54, 32, 171), rgba(0, 0, 0));
+	height: 100vh;
+}
+
+.heading{
+	font-size: 3rem;
+	font-weight: bold;
+}
+.header-profile{
+	max-width: 20%;
+}
+.heading-position{
+	font-weight: 400;
+}
+.heading-desc{
+	font-weight: 100;
+}
+.download-cv{
+	background-color: #2AB859;
+	border-radius: 50px;
+  	border: none;
+  	color: white;
+  	padding: 12px 70px;
+  	cursor: pointer;
+  	font-size: 18px;
+  	font-weight: 100;
+  	transition: 1s;
+  	box-shadow: -1px 9px 14px 1px rgba(0,0,0,1);
+	-webkit-box-shadow: -1px 9px 14px 1px rgba(0,0,0,1);
+	-moz-box-shadow: -1px 9px 14px 1px rgba(0,0,0,1);
+}
+.download-cv:hover{
+	background-color: #05E34E;
+	color: white;
+}
+
+.bg-black{
+	background-color: #000;
+}
+.bg-darker{
+	background-color: #121212;
+}
+.green-line{
+	border-top: 1px solid #05E34E;
+}
+.mobile-view{
+	display: none;
+}
+
+@media (max-width: 768px){
+	.header-profile {
+	    max-width: 60%;
+	}
+	.about-profile {
+	    max-width: 70%;
+	}
+	.heading {
+	    font-size: 2rem;
+	}
+	.mobile-view{
+		display: block;
+	}
+	.desktop-view{
+		display: none;
+}
+}
